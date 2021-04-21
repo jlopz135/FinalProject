@@ -1,0 +1,100 @@
+/*DEVELOPER Juan Lopez, IS117-002, Spring 2021*/
+.container-fluid{
+    background: lightgoldenrodyellow;
+}
+html{
+    background: lightgoldenrodyellow;
+}
+.navbar-custom{
+    background-color: gray;
+}
+a.nav-link{
+    color:white;
+    font-size: 25px;
+    text-align: center;
+}
+#page-container{
+    position: relative;
+    min-height: 100px;
+}
+#page-container > .banner{
+    margin-bottom: 1em;
+    position: absolute;
+
+    width: 100%;
+    border: 1px solid black;
+}
+.btn{
+
+}
+/*
+hover over menu
+ */
+a:focus, a:hover {
+     font-style: italic;
+}
+a.current{
+    color: blue;
+    font-weight: bold;
+}
+p{
+    text-align: justify;
+}
+#page-wrap{
+    padding: .5rem;
+
+}
+.layout{
+
+    padding: 1rem;
+
+}
+#page-wrap2{
+     padding: 3rem;
+
+ }
+#page-wrap3{
+      padding: .5rem;
+
+  }
+.layout section img {
+    float: left;
+    padding: 0;
+    margin: 0em .5em 3em 1em;
+    border: 1px solid black;
+}
+#page-wrap section img{
+     float: left;
+     padding: 0;
+     margin: 0em .5em 1em 1em;
+     border: 1px solid black;
+ }
+#page-wrap2 section img{
+    float: left;
+    padding: 0;
+    margin: 0em .5em 1em 1em;
+    border: 1px solid black;
+}
+
+#page-wrap3 section img{
+    float: left;
+    padding: 0;
+    margin: 0em .5em 1em 1em;
+    border: 1px solid black;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    height: 2.5rem;
+    padding: 1em;
+    font-size: .75rem;
+    clear: both;
+}
+footer span{
+    text-align: center;
+    color: white;
+    padding: 1em 1em;
+}

@@ -1,0 +1,146 @@
+<!--DEVELOPER Juan Lopez, IS117-002, Spring 2021 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Soccer Site!</title>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+
+        <nav class="navbar navbar-custom justify-content-start navbar-expand-md col-12">
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.html"> <img src="images/ball.png" alt="Soccer Ball"></a>
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler navbar-dark" type="button"
+                    data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <!-- Links -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="history.html">History</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="play.html">How To Play</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="comp.html">Competitions</a>
+                    </li>
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                           data-toggle="dropdown">
+                            More
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="contact.html">Contact Page</a>
+                            <a class="dropdown-item" href="contact.html#highlights">Highlights</a>
+                            <a class="dropdown-item" href="contact.html#team">Favorite Team</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </div>
+    <div class="container col-2">
+        <div class="row">
+            <form action="">
+                <div class="form-group">
+                    <label for="firstname">First Name:</label>
+                    <input type="text" class="form-control" id="firstname"
+                           placeholder="First name" name="firstname">
+                </div>
+                <div class="form-group">
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" class="form-control" id="lastname"
+                           placeholder="Last name" name="lastname">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email"
+                           placeholder="Enter email" name="email">
+                </div>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input"
+                               type="checkbox" name="subscribe"> Subscribe
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary col-12">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="layout" id="highlights">
+        <h3 style="color: blue">Highlights</h3>
+        <div class="card-group">
+            <div class="card">
+                <img class="card-img-top" src="images/penalty.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="images/penalty.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                        content.</p>
+
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="images/penalty.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This card has even longer content than the first to show that equal
+                        height action.</p>
+
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="layout" id="team">
+                <h3 style="color: blue">My Favorite Team</h3>
+                <div style="clear: left;">
+                    <section><p style="float: right;"><img src="images/foot.jpg" alt="Foot on soccer ball"></p>
+                    </section>
+                    <p>Thank you for visiting the Soccer Site! We are so glad to have you here. My name is Juan Lopez and
+                        the following site is my project for IS117. I hope you enjoy what you learn and can leave with more
+                        knowledge than you entered with. Olé!</p><br>
+                    <p>This site has been created in order to inform, educate, or demonstrate the following:</p>
+
+                </div>
+            </div>
+        <footer class="footer page-footer font-small ">
+            <span>&copy; Juan Lopez, 2021 |  Terms Of Use  |  Privacy Statement</span>
+        </footer>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+</body>
+</html>
