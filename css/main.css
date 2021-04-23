@@ -41,22 +41,22 @@ p{
     text-align: justify;
 }
 #page-wrap{
-    padding: .5rem;
+    padding: 3em;
 
 }
 .layout{
-
-    padding: 1rem;
+    padding: 3em;
 
 }
 #page-wrap2{
-     padding: 3rem;
+     padding: 3em;
 
  }
 #page-wrap3{
-      padding: .5rem;
+      padding: 3em;
 
   }
+
 .layout section img {
     float: left;
     padding: 0;
